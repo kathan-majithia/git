@@ -1,0 +1,43 @@
+><!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Kathan's Website</title>
+   <script>
+
+       function radio_name(){
+            var rn1 = document.getElementById("r1")
+           var rn2 = document.getElementById("r2")
+          
+            if(rn1.checked == true)
+                alert("Channel : " +rn1.value)
+            else if(rn2.checked == true)
+                alert("Channel : " +rn2.value)
+            else
+                alert("No channel selected")
+            
+            }
+
+        function selname(){
+            var sel = document.getElementById("ra")
+            alert(sel.options[sel.selectedIndex].value + " is your favourite Character")
+        }
+    </script>
+    
+</head>
+<body>
+    <input id="r1" name="r" type="radio" value="Kamy Studios"> Kamy Studios
+    <br>
+    <input id="r2" name="r" type="radio" value="Kam Normal"> Kam Normal
+    <br>
+    <input onclick="radio_name()" type="button" value="Click">
+
+    <h1>Favorite Character</h1>
+    <select id="ra">
+        <option value="Iron Man">Iron Man</option>
+        <option value="Thor">Thor</option>
+        <option value="Captian America">Captian America</option>
+    </select>
+    <br>
+    <button onclick="selname()">Click !!!!</button>
+</body>
+</html>
