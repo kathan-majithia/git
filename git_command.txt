@@ -7,3 +7,5 @@ git status : Show status
 git checkout : update or recover file
 touch : create file
 git checkout -f : Recover all files
+git log : get commits
+git log -p -number : commit of number
