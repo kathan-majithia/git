@@ -12,3 +12,6 @@ git log -p -number : commit of number
 git rm --cached : remove file from repo
 git status -s : short status
 git branch -b : create/show branch
+git remote add name path : add remote
+git push name branch : push
+git push -u : push in same branch
