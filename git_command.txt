@@ -1,0 +1,8 @@
+
+git init : Start init
+git add : Add files
+git add -A : Add all files
+git commit -m "message" : Commit changes
+git status : Show status
+git checkout : update file
+touch : create file
