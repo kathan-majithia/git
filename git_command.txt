@@ -15,3 +15,4 @@ git branch -b : create/show branch
 git remote add name path : add remote
 git push name branch : push
 git push -u : push in same branch
+git clone path folder : clone public repo
