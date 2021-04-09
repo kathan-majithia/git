@@ -4,5 +4,6 @@ git add : Add files
 git add -A : Add all files
 git commit -m "message" : Commit changes
 git status : Show status
-git checkout : update file
+git checkout : update or recover file
 touch : create file
+git checkout -f : Recover all files
